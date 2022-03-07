@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css?family=Supermercado+One&effect=neon|fire-animation&display=swap');
+body{
+    background-color: coral;
+}
+div.cont1{
+    position: relative;
+    border: 3px dashed greenyellow;
+    width: 100%;
+    margin: auto;
+}
+.imcab{
+    width: 100%;
+    height: 180px;
+    opacity: .8;
+}
+
+h2{
+    text-align: center;
+    color: coral;
+}
+div.contenedor{
+    position: relative;
+    border: 3px dashed greenyellow;
+    width: 30%;
+    margin: auto;
+}
+.imagen{
+    width: 100%;
+    opacity: .8;
+}
+div.centro{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-family: 'Supermercado One', cursive;
+}
+.menu{
+    list-style: none;
+    background-color: #457b9d;
+    text-align: center;
+    overflow: hidden;
+    
+}
+
+.menu li{
+    display: inline-block;/*podremos usar el paddin o el margin*/
+    padding: 15px;
+    margin: 20px;
+    border-radius: 5px;
+    
+}
+li a{
+    text-decoration: none;
+    color: #f1faee;
+    text-align: center;
+    padding: 15px;
+    margin: 20px;
+}
+li a:hover{
+    background-color: aqua;
+    
+}
